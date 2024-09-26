@@ -1,0 +1,18 @@
+/* src/index.css or the main CSS file */
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  width: 1000%;
+  max-width: 1200px; /* Adjust max-width as needed */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
